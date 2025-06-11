@@ -1,0 +1,25 @@
+body{
+    padding: 1em;
+}
+nav ul{
+    list-style-type: none; /* Supprime les puces */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Optionnel: pour centrer le menu */
+}
+nav ul li{
+    display: inline-block;
+    margin: 1em;
+}
+nav ul li a{
+    color: #333;
+}
+#content{
+    margin-top: 2em;
+    text-align: left;
+}
+.article {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 2em;
+}
